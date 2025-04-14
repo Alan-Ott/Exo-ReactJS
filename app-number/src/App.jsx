@@ -43,11 +43,11 @@ function App() {
         </div>
 
         <div className='card-body'>
-          <ul>
+          <div className="">
             {state.randNums.map((randNum, i) => (
-              <li key={i}>{randNum.num}</li>
+              <span className="" key={i}>{randNum.num} {i < state.randNums.length - 1 ? ', ' : ''}</span>
             ))}
-          </ul>
+          </div>
         </div>
         <p>{console.log(state.randNums)}</p>
 
