@@ -58,6 +58,13 @@ span {
   -webkit-animation: hue 4s infinite linear;
 }
 
+button {
+  color: #000000;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-animation: hue 10s infinite linear;
+
+}
+
 @-webkit-keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);

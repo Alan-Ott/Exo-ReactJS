@@ -36,16 +36,16 @@ function App() {
           <button onClick={addRandNum}>
             Add Random Number
           </button>
-
+<span> </span>
           <button onClick={shuffleRandNum}>
             Shuffle List
           </button>
         </div>
 
         <div className='card-body'>
-          <div className="">
+          <div>
             {state.randNums.map((randNum, i) => (
-              <span className="" key={i}>{randNum.num} {i < state.randNums.length - 1 ? ', ' : ''}</span>
+              <span key={i}>{randNum.num} {i < state.randNums.length - 1 ? ', ' : ''}</span>
             ))}
           </div>
         </div>
