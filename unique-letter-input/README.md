@@ -1,12 +1,8 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Avec vitejs installez un nouveau projet.
+Créez un champ text pour ajouter une lettre en majuscule.
+Affichez la liste des lettres ajoutés.
+Créez un bouton pour mélanger la liste des lettres
+Le bouton ajouter une lettre est inactif si aucule lettre n'est saisi dans le champ text
+On ne peut ajouter qu'une seule lettre dans le champ texte
+On ne peut pas ajouter une lettre déjà présente dans la liste.
+Gérez les messages d'erreurs
